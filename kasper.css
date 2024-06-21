@@ -840,6 +840,7 @@ nav .form i {
   border: 1px solid var(--main-color);
   width: fit-content;
   margin: 30px auto;
+  color: black;
   transition: 0.3s;
 }
 .pricing .plans .plan .foot a:hover {
