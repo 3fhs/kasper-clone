@@ -752,7 +752,7 @@ nav .form i {
 .quote {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url(../templete-kasper/photo-kasper/bluechange.jpg);
+  background-image: url(./photo-kasper/bluechange.jpg);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -784,7 +784,7 @@ nav .form i {
   gap: 30px;
 }
 .pricing .plans .plan {
-  background-color: #fcfcfc;
+  background-color: #9992;
   text-align: center;
 }
 .pricing .plans .plan .head {
@@ -840,6 +840,11 @@ nav .form i {
   border: 1px solid var(--main-color);
   width: fit-content;
   margin: 30px auto;
+  transition: 0.3s;
+}
+.pricing .plans .plan .foot a:hover {
+  color: #fff;
+  background-color: var(--main-color);
 }
 .pricing .contact-text {
   text-align: center;
@@ -860,7 +865,7 @@ nav .form i {
 .subscribe {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url("../templete-kasper/photo-kasper/bluechange.jpg");
+  background-image: url("./photo-kasper/bluechange.jpg");
   position: relative;
   color: white;
 }
@@ -996,7 +1001,7 @@ nav .form i {
 .footer {
   padding-top: calc(var(--section-padding) / 2);
   padding-bottom: calc(var(--section-padding) / 2);
-  background-image: url("../templete-kasper/photo-kasper/bluechange.jpg");
+  background-image: url("./photo-kasper/bluechange.jpg");
   background-size: cover;
   position: relative;
   color: white;
